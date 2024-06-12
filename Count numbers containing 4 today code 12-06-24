@@ -1,0 +1,14 @@
+Today JAVA code
+
+class Solution {
+    public static int countNumberswith4(int n) {
+        int ans=0;
+        for(int i=4;i<=n;i++){
+            if(Integer.toString(i).indexOf("4")>-1)  ans++;
+        }
+        return ans;
+    }
+}
+Output:-
+
+9
